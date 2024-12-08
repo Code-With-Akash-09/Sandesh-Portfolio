@@ -25,13 +25,10 @@ export default function RootLayout({ children }) {
             <body
                 className={`${rammettoOne.variable} ${kumbhSans.variable}, antialiased h-dvh flex flex-col w-screen overflow-hidden`}
             >
-                <div className="flex w-full flex-col flex-1 bg-[url('/assets/banner-img/dot-pattern.webp')] bg-contain">
+                <div className="flex w-full flex-col flex-1 h-full bg-[url('/assets/banner-img/dot-pattern.webp')] bg-cover md:bg-contain">
                     <Navbar />
-                    <main className="flex w-full h-[calc(100%-56px)] flex-col">
-                        <div
-                            className="flex h-full
-                         w-full flex-1 flex-col overflow-y-auto scrollbar-hide"
-                        >
+                    <main className="flex w-full h-[calc(100%-56px)] flex-col overflow-y-auto scrollbar-hide">
+                        <div className="flex h-fit w-full flex-col">
                             {children}
                         </div>
                     </main>
