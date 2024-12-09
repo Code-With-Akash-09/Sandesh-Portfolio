@@ -1,5 +1,3 @@
-import React from "react";
-import Image from "next/image";
 import LogoToolTip from "../molecules/LogoToolTip";
 
 const Tools = [
@@ -100,9 +98,9 @@ const ToolsAndSkills = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex flex-col w-full gap-6">
-                        <span className="h-[1px] w-2/3 mx-auto bg-black"></span>
-                        <ul className="flex flex-col text-xl gap-4 w-full items-center justify-center">
+                    <div className="flex flex-col md:flex-row w-full gap-6 lg:gap-8">
+                        <span className="h-[1px] md:h-2/3 w-2/3 md:w-[1px] mx-auto md:mx-0 md:my-auto bg-black"></span>
+                        <ul className="flex flex-col text-xl md:text-2xl lg:text-3xl gap-4 md:gap-8 w-full items-center justify-center md:items-start">
                             <li className="w-fit flex">
                                 <span className="font-medium font-kumbhSans">
                                     Creative Direction
