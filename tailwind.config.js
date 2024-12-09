@@ -7,6 +7,10 @@ module.exports = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        fontFamily: {
+            rammettoOne: ["var(--font-rammetto)"],
+            kumbhSans: ["var(--font-kumbh-sans)"],
+        },
         extend: {
             colors: {
                 background: "hsl(var(--background))",

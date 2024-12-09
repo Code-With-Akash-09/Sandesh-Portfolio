@@ -10,7 +10,7 @@ const rammettoOne = Rammetto_One({
 
 const kumbhSans = Kumbh_Sans({
     subsets: ["latin"],
-    weight: ["400", "700"],
+    weight: ["400", "500", "600", "700", "800", "900"],
     variable: "--font-kumbh-sans",
 });
 

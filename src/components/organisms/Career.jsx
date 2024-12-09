@@ -44,7 +44,7 @@ const CareerData = [
 
 const Career = () => {
     return (
-        <div className="flex h-auto md:h-[calc(100vh-56px)] w-full bg-[url('/assets/banner-img/career-banner.webp')] bg-cover md:bg-center">
+        <div className="flex h-auto md:h-[calc(100vh-56px)] xl:h-fit w-full bg-[url('/assets/banner-img/career-banner.webp')] bg-cover md:bg-center">
             <div className="flex flex-col w-full md:h-full max-w-7xl mx-auto px-8 md:px-4 py-6 md:py-8 lg:py-10 xl:py-14 gap-6 md:gap-8 lg:gap-10 xl:gap-12">
                 <div className="flex w-full">
                     <h2 className="flex text-white w-full text-3xl md:text-4xl lg:text-5xl font-extrabold">
