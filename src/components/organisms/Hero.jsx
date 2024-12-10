@@ -1,10 +1,9 @@
 import Image from "next/image";
-import React from "react";
 import RandomPostionText from "../atoms/RandomPostionText";
 
 const Hero = () => {
     return (
-        <div className="flex md:h-[calc(100vh-56px)] w-full">
+        <div className="flex md:h-[calc(100vh-56px)] md:max-h-[800px] md:min-h-[720px]  w-full">
             <div className="flex w-full md:h-full max-w-7xl mx-auto px-4 py-2">
                 <div className="grid grid-cols-1 h-fit md:h-full md:grid-cols-2 gap-6 w-full">
                     <div className="flex h-fit pt-4 md:h-full w-full items-center justify-center md:order-2">
@@ -45,12 +44,12 @@ const Hero = () => {
                                 text={"Team Leader"}
                                 className={"w-4/5 items-end justify-end"}
                             />
-                            <div className="flex w-full py-4 items-center justify-center">
-                                <div className="flex w-5/6 flex-col">
+                            <div className="flex w-full py-4 px-2 items-center justify-center">
+                                <div className="flex w-full flex-col">
                                     <span className="text-base lg:text-lg font-semibold">
                                         & most importantly
                                     </span>
-                                    <span className="text-3xl/5 lg:text-4xl/5 xl:text-5xl/5 font-extrabold">
+                                    <span className="font-rammettoOne text-3xl/10 lg:text-4xl/10 xl:text-5xl/10 font-extrabold">
                                         marketing NERD
                                     </span>
                                 </div>

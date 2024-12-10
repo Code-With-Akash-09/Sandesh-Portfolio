@@ -1,6 +1,6 @@
 import Navbar from "@/components/organisms/Navbar";
+import { Kumbh_Sans, Rammetto_One } from "next/font/google";
 import "./globals.css";
-import { Rammetto_One, Kumbh_Sans } from "next/font/google";
 
 const rammettoOne = Rammetto_One({
     subsets: ["latin"],
@@ -10,8 +10,9 @@ const rammettoOne = Rammetto_One({
 
 const kumbhSans = Kumbh_Sans({
     subsets: ["latin"],
-    weight: ["400", "500", "600", "700", "800", "900"],
+    weight: "400",
     variable: "--font-kumbh-sans",
+    display: "swap"
 });
 
 export const metadata = {
