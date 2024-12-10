@@ -1,10 +1,9 @@
-import React from "react";
 import BlurCard from "../atoms/BlurCard";
 
 const MarqueeCard = ({ data }) => {
     return (
-        <div className="w-96 lg:w-[480px] flex flex-col">
-            <BlurCard data={data} />
+        <div className="w-96 lg:w-[480px] xl:w-[540px] flex flex-col">
+            <BlurCard data={data} className={"w-[90%]"} />
             <div className="flex flex-col items-center justify-center w-full">
                 <span className="h-10 w-[1px] bg-white"></span>
                 {data.id ? (
